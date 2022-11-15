@@ -11,30 +11,36 @@
     <main>
       <section>
         <h1>Login</h1>
-        <label for="email">
-          <span>E</span>
-          <span>M</span>
-          <span>A</span>
-          <span>I</span>
-          <span>L</span>
-        </label>
-        <input type="email" name="email" id="email" />
-        <label for="password">
-          <span>P</span>
-          <span>A</span>
-          <span>S</span>
-          <span>S</span>
-          <span>W</span>
-          <span>O</span>
-          <span>R</span>
-          <span>D</span>
-        </label>
-        <input type="password" name="password" id="password" />
-        <button type="submit" name="submit" id="submit">Login</button>
+        <form action="" method="post">
+          <div>
+            <label for="email">
+              <span>E</span>
+              <span>M</span>
+              <span>A</span>
+              <span>I</span>
+              <span>L</span>
+            </label>
+            <input type="email" name="email" id="email" required/>
+          </div>
+          <div>
+            <label for="password">
+              <span>P</span>
+              <span>A</span>
+              <span>S</span>
+              <span>S</span>
+              <span>W</span>
+              <span>O</span>
+              <span>R</span>
+              <span>D</span>
+            </label>
+            <input type="password" name="password" id="password" required/>
+          </div>
+          <button type="submit" name="submit" id="submit">Send</button>
+        </form>
         <div>
           <p>
             Tu n'a pas de compte !!!
-            <a href="#" target="_blank" rel="noopener noreferrer"
+            <a href="/"
               >Inscrit toi !!!</a
             >
           </p>

@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500;900&display=swap");
+
+* {
+  box-sizing: border-box;
+  font-family: "Roboto", cursive;
+  margin: 0;
+}
+
+body {
+  margin: 0 auto;
+  background: rgb(247, 4, 110);
+  background: linear-gradient(
+    90deg,
+    rgba(247, 4, 110, 1) 0%,
+    rgba(0, 112, 245, 1) 100%
+  );
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+section {
+  background-color: #9d2b9f;
+  border: 1px solid #000;
+  border-radius: 5px;
+  width: 25vw;
+  height: 75vh;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+h1 {
+  color: #fff;
+  font-size: 2.5rem;
+  margin: 10px 0 50px 0;
+}
+
+form > div {
+  position: relative;
+  color: #fff;
+  margin: 0 0 50px 0;
+  width: 100%;
+}
+
+label {
+  position: absolute;
+  top: 10px;
+  left: 0;
+}
+
+input {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  border-bottom: 3px solid #fff;
+  width: 100%;
+  padding: 5px;
+  color: #fff;
+  font-size: larger;
+}
+
+input:active,
+input:focus,
+input:visited {
+  color: #fff;
+  font-size: larger;
+}
+
+form {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+
+button[type="submit"] {
+  border: none;
+  outline: none;
+  background-color: #0b6bee;
+  padding: 20px 75px;
+  color: #fff;
+  font-size: 1.5rem;
+  border-radius: 5px;
+  margin: 0 0 50px 0;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.wave {
+  display: inline-block;
+  animation: waves 0.5s ease 1 normal both;
+}
+
+@keyframes waves {
+  from {
+    transform: translateY(0px);
+  }
+  to {
+    transform: translateY(-50px);
+  }
+}
